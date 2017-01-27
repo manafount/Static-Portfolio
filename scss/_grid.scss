@@ -1,0 +1,46 @@
+/*
+Grid
+*/
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.columns:first-child {
+  margin-left: 0;
+}
+
+@for $i from 1 through length($column-names) {
+  .#{nth($column-names, $i)}.columns  {
+    width: ($i * $column-width) + ($i - 1 * 1%);
+    display: inline-block;
+    margin-left: 1%;
+    float: left;
+  }
+  .#{nth($column-names, $i)}.columns-sm  {
+    @media(max-width: 550px) {
+      width: ($i * $column-width) + ($i - 1 * 1%);
+      display: inline-block;
+      margin-left: 1%;
+      float: left;
+    }
+  }
+  .#{nth($column-names, $i)}.columns-md  {
+    @media(min-width: 551px) {
+      width: ($i * $column-width) + ($i - 1 * 1%);
+      display: inline-block;
+      margin-left: 1%;
+      float: left;
+    }
+  }
+
+  /* Offset */
+
+  .offset-by-#{nth($column-names, $i)}.columns {
+    margin-left: ($i * $column-width) + ($i * 1%);
+    display: inline-block;
+  }
+}
