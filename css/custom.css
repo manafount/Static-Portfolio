@@ -410,31 +410,25 @@ nav ul li ul li a {
 
 /* Work
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-button.button-portfolio,
-button.button-portfolio {
-  color: #fff;
+a.item-link {
   background-color: #fb5958;
+  border-radius: 5px;
   border-color: #fb5958;
-  border-radius: 0px;
-  height: 30px;
-  font-size: 0.6em;
+  color: #fff;
+  font-size: 0.7em;
   font-weight: normal;
+  height: 30px;
   margin-right: 10px;
-  padding: 0 15px;
-  letter-spacing: 0.1em;
-  text-transform: none;
+  padding: 2px 7px;
+  text-decoration: none;
   -webkit-transition: background-color 0.25s ease-out;
   -moz-transition: background-color 0.25s ease-out;
   -o-transition: background-color 0.25s ease-out;
   transition: background-color 0.25s ease-out;
 }
 
-.button-portfolio:hover,
-button.button-portfolio:focus {
-  color: #fff;
-  background-color: #e2403f /*#c82625*/;
-  border-color: #e2403f;
+a:hover.item-link {
+  background-color: #e2403f;
 }
 
 .work {
@@ -448,7 +442,7 @@ button.button-portfolio:focus {
 }
 
 .work-items h4 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 /* CTA
