@@ -1,3 +1,3 @@
-# My Portfolio: Made with Skeleton & <3
+# My Portfolio: Made with Skeleton & ❤
 
 #### A never-ending work in progress.
