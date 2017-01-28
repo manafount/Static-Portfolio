@@ -46,8 +46,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #fff;
-  background-color: #ff9500;
-  border-color: #ff9500;
+  background-color: #fb5958;
+  border-color: #fb5958;
   border-radius: 0px;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
@@ -67,8 +67,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #E58600;
-  border-color: #E58600;
+  background-color: #e2403f;
+  border-color: #e2403f;
 }
 
 /* Sections
@@ -315,7 +315,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url(../img/bkg/white-pattern.svg);
+  background-image: url(../img/bkg/red-pattern.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 100px 27px;
