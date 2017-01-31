@@ -15,12 +15,12 @@ hr {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #FF6443;
+  color: #63d6e0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EB390F;
+  color: #00b2c1;
   text-decoration: underline;
 }
 
@@ -46,8 +46,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #fff;
-  background-color: #fb5958;
-  border-color: #fb5958;
+  background-color: #63d6e0;
+  border-color: #63d6e0;
   border-radius: 0px;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
@@ -67,8 +67,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #e2403f;
-  border-color: #e2403f;
+  background-color: #00B2C1;
+  border-color: #00B2C1;
 }
 
 /* Sections
@@ -315,7 +315,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url(../img/bkg/red-pattern.svg);
+  background-image: url(../img/bkg/blue-pattern.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 100px 27px;
@@ -391,11 +391,11 @@ nav ul li ul li a {
     margin-bottom: 0;
     font-size: 1.8rem;
     line-height: 1.8;
-    color: #EB390F;
+    color: #00b2c1;
 }
 
 #about .skill-icon i.fa {
-  color: #FF6443;
+  color: #00b2c1;
 }
 
 #about .skill-icon i.fa-inverse {
@@ -406,6 +406,16 @@ nav ul li ul li a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .services {
   background-color: #f2f2f2;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.service-icon  {
+  text-align: center;
+  margin: 10px auto;
+  color: #63d6e0;
 }
 
 /* Work
@@ -445,18 +455,6 @@ a:hover.item-link {
   margin-bottom: 0;
 }
 
-/* SERVICES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.services ul {
-  list-style: none;
-}
-
-.service-icon  {
-  text-align: center;
-  margin: 10px auto;
-  color: #fb5958;
-}
-
 /* CTA
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .CTA {
@@ -486,9 +484,9 @@ footer .fa {
 }
 
 a.social-icon {
-  color: #d6d6d6;
+  color: #999;
 }
 
 a.social-icon:hover {
-  color: #fb5958;
+  color: #63d6e0;
 }
