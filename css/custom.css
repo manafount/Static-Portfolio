@@ -86,7 +86,6 @@ section {
 
 /* Typographic
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 body, .article {
   font-family: 'Karla', sans-serif;
   font-size: 2.1em;
@@ -141,10 +140,10 @@ q:after {
   text-align: right;
 }
 
-/*.highlight {
-  background-image: linear-gradient(180deg, transparent 65%, #FFBFBE 0);
+.highlight {
+  background-image: linear-gradient(180deg, transparent 65%, #fecb02 0);
   text-decoration: none;
-}*/
+}
 
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -178,7 +177,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #fb5958;
+  color: #00B2C1;
 }
 
 nav ul li a:not(:only-child):after {
@@ -344,20 +343,32 @@ nav ul li ul li a {
   font-size: 0.78em;
 }
 
-.learn-more a {
-  color: #fff;
+.window {
+  background-color: #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
-/*.typed {
-  border-bottom: 4px solid #fb5958;
-    transition: border-color 3s ease-in-out;
-}*/
+.console {
+  background-color: #333;
+  padding: 10px 20px;
+  color: #f2f2f2;
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-size: 2rem;
+}
+
+.prompt {
+  color: #999;
+  padding-right: 10px;
+}
 
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.8s infinite;
-    -moz-animation: blink 0.8s infinite;
-    animation: blink 0.8s infinite;
+  color: #999;
+  opacity: 1;
+  -webkit-animation: blink 0.8s infinite;
+  -moz-animation: blink 0.8s infinite;
+  animation: blink 0.8s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
