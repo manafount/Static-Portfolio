@@ -177,7 +177,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00B2C1;
+  color: #EB390F;
 }
 
 nav ul li a:not(:only-child):after {
@@ -314,7 +314,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url(../img/bkg/yellow-pattern.svg);
+  background-image: url(../img/bkg/red-pattern.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 100px 27px;
@@ -497,5 +497,5 @@ a.social-icon {
 }
 
 a.social-icon:hover {
-  color: #fecb02;
+  color: #eb390f;
 }
