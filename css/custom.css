@@ -45,9 +45,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #fff;
-  background-color: #63d6e0;
-  border-color: #63d6e0;
+  color: black;
+  background-color: #fecb02;
+  border-color: #fecb02;
   border-radius: 0px;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
@@ -66,9 +66,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #fff;
-  background-color: #00B2C1;
-  border-color: #00B2C1;
+  color: black;
+  background-color: #e4b701;
+  border-color: #e4b701;
 }
 
 /* Sections
@@ -314,7 +314,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url(../img/bkg/blue-pattern.svg);
+  background-image: url(../img/bkg/yellow-pattern.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 100px 27px;
@@ -348,6 +348,8 @@ nav ul li ul li a {
   border-radius: 5px;
   margin: 0 auto;
   padding-top: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  /* Material Design Shadow → https://codepen.io/sdthornton/pen/wBZdXq */
 }
 
 .console {
@@ -405,12 +407,8 @@ nav ul li ul li a {
     color: #00b2c1;
 }
 
-#about .skill-icon i.fa {
-  color: #00b2c1;
-}
-
-#about .skill-icon i.fa-inverse {
-  color: #fff;
+#about i.fa {
+  color: #eb390f;
 }
 
 /* Services
@@ -426,7 +424,7 @@ nav ul li ul li a {
 .service-icon  {
   text-align: center;
   margin: 10px auto;
-  color: #63d6e0;
+  color: #eb390f;
 }
 
 /* Work
@@ -499,5 +497,5 @@ a.social-icon {
 }
 
 a.social-icon:hover {
-  color: #63d6e0;
+  color: #fecb02;
 }
