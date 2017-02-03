@@ -20,9 +20,8 @@ a {
 }
 
 a:hover {
-  color: #00b2c1;
-  text-decoration: underline;
-}
+  color: #63D6E0;
+  }
 
 a.button {
   text-decoration: none;
@@ -46,8 +45,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: black;
-  background-color: #fecb02;
-  border-color: #fecb02;
+  background-color: #63D6E0;
+  border-color: #63D6E0;
   border-radius: 0px;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
@@ -67,8 +66,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: black;
-  background-color: #e4b701;
-  border-color: #e4b701;
+  background-color: #00B2C1;
+  border-color: #00B2C1;
 }
 
 /* Sections
@@ -141,7 +140,7 @@ q:after {
 }
 
 .highlight {
-  background-image: linear-gradient(180deg, transparent 65%, #fecb02 0);
+  background-image: linear-gradient(180deg, transparent 65%, #C3EEF2 0);
   text-decoration: none;
 }
 
@@ -177,7 +176,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #EB390F;
+  color: #00B2C1;
+  text-decoration: underline;
 }
 
 nav ul li a:not(:only-child):after {
@@ -314,7 +314,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url(../img/bkg/red-pattern.svg);
+  background-image: url(../img/bkg/blue-pattern.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 100px 27px;
@@ -411,20 +411,20 @@ nav ul li ul li a {
   color: #eb390f;
 }
 
-/* Services
+/* Skills
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.services {
+.skills {
   background-color: #f2f2f2;
 }
 
-.services ul {
+.skills ul {
   list-style: none;
 }
 
-.service-icon  {
+.skill-icon  {
   text-align: center;
   margin: 10px auto;
-  color: #eb390f;
+  color: #00B2C1;
 }
 
 /* Work
@@ -497,5 +497,5 @@ a.social-icon {
 }
 
 a.social-icon:hover {
-  color: #eb390f;
+  color: #45979E;
 }
