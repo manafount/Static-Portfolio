@@ -314,7 +314,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url(../img/bkg/blue-pattern.svg);
+  background-image: url(../img/bkg/blue.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 100px 27px;
@@ -337,10 +337,7 @@ nav ul li ul li a {
   border-radius: 4px; }
 }
 
-.hero .button {
-  margin-left: 15px;
-  color: #fff;
-  font-size: 0.78em;
+.hero {
 }
 
 .window {
@@ -386,7 +383,7 @@ nav ul li ul li a {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-} */
+}
 
 /* About
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -477,6 +474,10 @@ a:hover.item-link {
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
+  background-image: url(../img/bkg/gray.svg);
+  background-attachment: fixed;
+  background-size: 500px 500px;
+  padding: 100px 27px;
   background-color: #463f3f;
   padding: 60px 0;
 }
@@ -498,4 +499,13 @@ a.social-icon {
 
 a.social-icon:hover {
   color: #45979E;
+}
+
+/* ABOUT PAGE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero-about {
+  background-image: url(../img/bkg/yellow.svg);
+  background-attachment: fixed;
+  background-size: 500px 500px;
 }
