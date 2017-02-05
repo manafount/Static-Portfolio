@@ -7,7 +7,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid black;
+  border-top: 1px solid #111111;
   margin: 1em 0;
   padding: 0;
 }
@@ -44,7 +44,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: black;
+  color: #111111;
   background-color: #63D6E0;
   border-color: #63D6E0;
   border-radius: 0px;
@@ -65,7 +65,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: black;
+  color: #111111;
   background-color: #00B2C1;
   border-color: #00B2C1;
 }
@@ -91,7 +91,7 @@ body, .article {
   letter-spacing: .02em;
   line-height: 1.9;
   /*max-width: 960px;*/
-  color: black;
+  color: #111111;
 }
 
 div {
@@ -171,7 +171,7 @@ nav ul li a {
   padding: 0 20px;
   line-height: 50px;
   background: #ffffff;
-  color: black;
+  color: #111111;
   text-decoration: none;
 }
 
@@ -251,7 +251,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: black;
+  background: #111111;
   position: absolute;
   display: block;
   content: '';
@@ -321,7 +321,7 @@ nav ul li ul li a {
 }
 
 .hero h1 {
-  color: black;
+  color: #111111;
   font-size: 6.5rem;
 }
 
