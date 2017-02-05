@@ -508,4 +508,7 @@ a.social-icon:hover {
   background-image: url(../img/bkg/yellow.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
+  padding-top: 35px;
+  padding-bottom: 0;
 }
+
