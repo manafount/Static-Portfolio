@@ -503,12 +503,20 @@ a.social-icon:hover {
 
 /* ABOUT PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .hero-about {
-  background-image: url(../img/bkg/yellow.svg);
+  background-image: url(../img/bkg/gray.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding-top: 35px;
   padding-bottom: 0;
+}
+
+.hero-about, h1 {
+  color: #63D6E0;
+  font-weight: normal;
+}
+
+.gray {
+  background-color: #f2f2f2;
 }
 
