@@ -353,16 +353,19 @@ nav ul li ul li a {
   -moz-animation: blink 0.8s infinite;
   animation: blink 0.8s infinite;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-webkit-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-moz-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -471,6 +474,7 @@ footer h6 {
   font-weight: 400;
   color: #999;
   margin-top: 15px;
+  margin-bottom: 0;
 }
 
 footer .fa {
@@ -495,9 +499,10 @@ a.social-icon:hover {
   padding-bottom: 0;
 }
 
-.hero-about, h1 {
+.hero-about h1 {
   color: #63D6E0  ;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .gray {
