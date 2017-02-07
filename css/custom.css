@@ -372,26 +372,26 @@ nav ul li ul li a {
     100% { opacity:1; }
 }
 
-/* About Section
+/* Intro Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#about .expertise-block img {
+#intro .expertise-block img {
     width: auto;
     height: 14.0rem;
     max-width: 100%;
 }
 
-#about .expertise-block h4.title {
+#intro .expertise-block h4.title {
     margin: 1.8rem 0;
 }
 
-#about .skills p {
+#intro .skills p {
     margin-bottom: 0;
     font-size: 1.8rem;
     line-height: 1.8;
     color: #00b2c1;
 }
 
-#about i.fa {
+#intro i.fa {
   color: #eb390f;
 }
 
