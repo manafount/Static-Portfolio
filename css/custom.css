@@ -325,22 +325,6 @@ nav ul li ul li a {
   font-size: 6.5rem;
 }
 
-.hero h2 {
-  margin: auto;
-  padding: .5rem;
-  width: 300px;
-  font-family: monospace;
-  font-size: 110%;
-  white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 4px; }
-}
-
-/* WHY CAN'T I DELETE THE SELECTOR and DECLARATION BELOW? */
-.hero {
-}
-
 .window {
   background-color: #ccc;
   border-radius: 5px;
