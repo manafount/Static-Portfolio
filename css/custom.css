@@ -313,19 +313,19 @@ nav ul li ul li a {
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero {
+#hero-index {
   background-image: url(../img/bkg/blue.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
-  padding: 100px 27px;
+  padding: 50px 27px;
 }
 
-.hero h1 {
+#hero-index h1 {
   color: #111111;
   font-size: 6.5rem;
 }
 
-.window {
+#frame {
   background-color: #ccc;
   border-radius: 5px;
   padding-top: 15px;
@@ -333,7 +333,7 @@ nav ul li ul li a {
   /* Material Design Shadow → https://codepen.io/sdthornton/pen/wBZdXq */
 }
 
-.console {
+#console {
   background-color: #333;
   padding: 10px 20px;
   color: #f2f2f2;
@@ -491,7 +491,7 @@ a.social-icon:hover {
 
 /* About Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero-about {
+.hero-header {
   background-image: url(../img/bkg/gray.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
@@ -499,10 +499,8 @@ a.social-icon:hover {
   padding-bottom: 0;
 }
 
-#hero-greeting {
-  color: #63D6E0  ;
-  font-weight: normal;
-  margin-bottom: 0;
+.hero-header h1 {
+  color: #63D6E0;
 }
 
 .gray {
