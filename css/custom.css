@@ -150,9 +150,32 @@ header {
   min-height: 130px;
 }
 
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.brand img {
+  padding-top: 5px;
+}
+
 nav {
   float: right;
   padding-top: 40px;
+}
+
+.navigation {
+  height: 70px;
+  background: #ffffff;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -223,6 +246,9 @@ nav ul li ul li a {
   }
   nav ul {
     display: none;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 5px;
   }
   nav ul li {
     float: none;
@@ -286,29 +312,6 @@ nav ul li ul li a {
   .nav-list {
     display: block !important;
   }
-}
-
-.navigation {
-  height: 70px;
-  background: #ffffff;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1.4em;
-}
-
-.brand img {
-  padding-top: 5px;
 }
 
 /* Hero
