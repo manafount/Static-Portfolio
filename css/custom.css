@@ -15,13 +15,11 @@ hr {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #00b2c1;
-  text-decoration: none;
+  color: #111111;
 }
 
 a:hover {
   color: #00b2c1;
-  text-decoration: underline;
 }
 
 a.button {
