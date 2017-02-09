@@ -15,16 +15,41 @@ hr {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #63d6e0;
+  color: #00b2c1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #63D6E0;
-  }
+  color: #00b2c1;
+  text-decoration: underline;
+}
 
 a.button {
   text-decoration: none;
+}
+
+/* lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.ul-list ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ul-list ul {
+  margin: 2em 0;
+}
+
+.ul-list li {
+  margin-left: 2em;
+}
+
+.ul-list li:before {
+  content: '\f138';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
 }
 
 /* img
@@ -281,7 +306,7 @@ nav ul li ul li a {
   position: absolute;
   display: block;
   content: '';
-  transition: all 300ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 #nav-toggle span:before {
@@ -510,3 +535,6 @@ a.social-icon:hover {
   background-color: #f2f2f2;
 }
 
+.fa-ravelry {
+  color: #eb390f;
+}
