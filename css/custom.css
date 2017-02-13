@@ -114,7 +114,7 @@ body, .article {
   font-family: 'Karla', sans-serif;
   font-size: 2.1em;
   letter-spacing: .02em;
-  line-height: 1.9;
+  line-height: 2;
   /*max-width: 960px;*/
   color: #111111;
 }
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, pre, table, blockquote {
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 }
 
 ul ul, ol ol, ul ol, ol ul {
@@ -167,6 +167,11 @@ q:after {
 .highlight {
   background-image: linear-gradient(180deg, transparent 65%, #C3EEF2 0);
   text-decoration: none;
+}
+
+.lead {
+  font-size: 2.6rem;
+  line-height: 1.8;
 }
 
 /* Header & Navigation
