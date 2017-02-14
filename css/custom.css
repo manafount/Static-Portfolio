@@ -425,7 +425,7 @@ nav ul li ul li a {
 }
 
 #intro i.fa {
-  color: #eb390f;
+  color: #ff4081;
 }
 
 /* Skills
@@ -538,8 +538,4 @@ a.social-icon:hover {
 
 .gray {
   background-color: #f2f2f2;
-}
-
-.fa-ravelry {
-  color: #eb390f;
 }
