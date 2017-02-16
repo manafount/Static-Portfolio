@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Work &ndash; Amy Kotas</title>
+  <title>Contact &ndash; Amy Kotas</title>
   <meta name="description" content="">
   <meta name="author" content="Amy Kotas">
 
@@ -78,30 +78,35 @@
   <section class="work-showcase">
     <div class="container">
       <div class="row">
-        <div class="six columns">
-          <h2 class="text-left">Client</h2>
-          <h3 class="text-left">Role</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque perferendis labore, saepe magnam praesentium maiores quam.</p>
-          <button class="button">Visit Website</button>
-        </div>
-        <div class="six columns"><img src="img/rectangle.svg" class="u-full-width" alt="empty rectangle"></div>
-        <hr>
+        <h2>A few questions</h2>
+        <p>After you introduce yourself and your project, I'll get it touch with you to schedule a time to chat. You should expect to hear from me in a day or so.</p>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
+      <form>
       <div class="row">
-        <div class="six columns work-image"><img src="img/rectangle.svg" class="u-full-width" alt="empty rectangle"></div>
-        <div class="six columns work-description">
-          <h2 class="text-left">Client</h2>
-          <h3 class="text-left">Role</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque perferendis labore, saepe magnam praesentium maiores quam.</p>
-          <button class="button">Visit Website</button>
+        <div class="six columns">
+          <label for="exampleNameInput">Your name *</label>
+          <input class="u-full-width" type="name" required placeholder="Name" id="exampleNameInput">
         </div>
-        <hr>
+        <div class="six columns">
+          <label for="exampleEmailInput">Your email *</label>
+          <input class="u-full-width" type="email" required placeholder="Email address" id="exampleEmailInput">
+        </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="six columns">
+          <label for="examplePhoneInput">Phone number</label>
+          <input class="u-full-width" type="phone" placeholder="Phone number" id="examplePhoneInput">
+        </div>
+        <div class="six columns">
+          <label for="exampleWebsiteInput">Website</label>
+          <input class="u-full-width" type="website" placeholder="website.com" id="exampleWebsiteInput">
+        </div>
+        <p>* Required</p>
+      </div>
+      <label for="exampleMessage">Message</label>
+      <textarea class="u-full-width" placeholder="Tell me about your project… What is it? Why are you doing it? What do you hope to accomplish? How can I help? Timeline and budget details are also appreciated. *" id="exampleMessage"></textarea>
+      <input class="button-primary" type="submit" value="Submit">
+    </form>
   </section>
   <!-- Start CTA -->
   <section id="CTA" class="CTA u-full-width">
