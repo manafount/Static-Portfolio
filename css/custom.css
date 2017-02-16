@@ -28,6 +28,12 @@ a.button {
   text-decoration: none;
 }
 
+/* color panels
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.gray {
+  background-color: #f7f7f7;
+}
+
 /* lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .ul-list ul,
@@ -430,10 +436,6 @@ nav ul li ul li a {
 
 /* Skills
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.skills {
-  background-color: #f2f2f2;
-}
-
 .skills ul {
   list-style: none;
 }
@@ -465,10 +467,6 @@ a.item-link {
 
 a:hover.item-link {
   background-color: #e2403f;
-}
-
-.work {
-  background-color: #f2f2f2;
 }
 
 .work ul {
@@ -534,8 +532,4 @@ a.social-icon:hover {
 
 .hero-header h1 {
   color: #63D6E0;
-}
-
-.gray {
-  background-color: #f2f2f2;
 }
