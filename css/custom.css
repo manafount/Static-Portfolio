@@ -364,6 +364,13 @@ nav ul li ul li a {
   font-size: 6.5rem;
 }
 
+@media only screen and (max-width: 400px) {
+  #hero-index h1 {
+    font-size: 5.5rem;
+    line-height: 1.2;
+  }
+}
+
 #frame {
   background-color: #ccc;
   border-radius: 5px;
