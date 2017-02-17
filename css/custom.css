@@ -183,30 +183,22 @@ q:after {
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-  min-height: 130px;
+  min-height: 120px;
 }
 
 .brand {
   position: absolute;
   padding-left: 20px;
   float: left;
-  line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1.4em;
 }
 
 .brand img {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 nav {
   float: right;
   padding-top: 40px;
-}
-
-.navigation {
-  height: 70px;
-  background: #ffffff;
 }
 
 .nav-container {
@@ -228,7 +220,7 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 0 20px;
-  line-height: 50px;
+  line-height: 32px;
   background: #ffffff;
   color: #111111;
   text-decoration: none;
