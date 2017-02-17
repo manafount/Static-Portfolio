@@ -78,7 +78,7 @@ input[type="button"].button-primary {
   color: #111111;
   background-color: #63D6E0;
   border-color: #63D6E0;
-  border-radius: 0px;
+  border-radius: 0;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
   -moz-transition: background-color 0.25s ease-out;
@@ -143,7 +143,7 @@ p, ul, ol, pre, table, blockquote {
 
 ul ul, ol ol, ul ol, ol ul {
   margin-top: 0;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 q {
@@ -303,7 +303,7 @@ nav ul li ul li a {
   left: 18px;
   top: 42px;
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
+  padding: 10px 35px 16px 0;
 }
 
 #nav-toggle span,
@@ -532,4 +532,15 @@ a.social-icon:hover {
 
 .hero-header h1 {
   color: #63D6E0;
+}
+
+/* Contact Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contactForm textarea {
+  min-height: 150px;
+}
+
+.contactForm form {
+  background-color: #f7f7f7;
+  padding: 1em;
 }
