@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #00b2c1;
+  color: #00C0C7;
 }
 
 a.button {
@@ -76,8 +76,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #111111;
-  background-color: #63D6E0;
-  border-color: #63D6E0;
+  background-color: #00C0C7;
+  border-color: #00C0C7;
   border-radius: 0;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
@@ -97,8 +97,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #111111;
-  background-color: #00B2C1;
-  border-color: #00B2C1;
+  background-color: #00ADB3;
+  border-color: #009A9F;
 }
 
 /* sections
@@ -171,7 +171,7 @@ q:after {
 }
 
 .highlight {
-  background-image: linear-gradient(180deg, transparent 65%, #C3EEF2 0);
+  background-image: linear-gradient(180deg, transparent 65%, #FFCA9C 0);
   text-decoration: none;
 }
 
@@ -183,7 +183,7 @@ q:after {
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-  min-height: 120px;
+  min-height: 90px;
 }
 
 .brand {
@@ -193,7 +193,7 @@ header {
 }
 
 .brand img {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 nav {
@@ -220,14 +220,14 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 0 20px;
-  line-height: 32px;
+  line-height: 15px;
   background: #ffffff;
   color: #111111;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #00B2C1;
+  color: #00C0C7;
   text-decoration: underline;
 }
 
@@ -238,11 +238,6 @@ nav ul li a:not(:only-child):after {
 
 nav ul li ul li {
   min-width: 190px;
-}
-
-nav ul li ul li a {
-  padding: 15px;
-  line-height: 20px;
 }
 
 .nav-dropdown {
@@ -274,9 +269,8 @@ nav ul li ul li a {
   }
   nav ul {
     display: none;
-    background-color: #fff;
-    padding-top: 60px;
-    padding-bottom: 5px;
+    background-color: #;
+    padding: 5px 0;
   }
   nav ul li {
     float: none;
@@ -293,7 +287,7 @@ nav ul li ul li a {
 #nav-toggle {
   position: absolute;
   left: 18px;
-  top: 42px;
+  top: 30px;
   cursor: pointer;
   padding: 10px 35px 16px 0;
 }
@@ -345,7 +339,7 @@ nav ul li ul li a {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #hero-index {
-  background-image: url(../img/bkg/blue.svg);
+  background-image: url(../img/bkg/teal.svg);
   background-attachment: fixed;
   background-size: 500px 500px;
   padding: 50px 27px;
@@ -414,7 +408,7 @@ nav ul li ul li a {
     margin-bottom: 0;
     font-size: 1.8rem;
     line-height: 1.8;
-    color: #00b2c1;
+    color: #00C0C7;
 }
 
 #intro i.fa {
@@ -430,7 +424,7 @@ nav ul li ul li a {
 .skill-icon  {
   text-align: center;
   margin: 10px auto;
-  color: #00B2C1;
+  color: #00C0C7;
 }
 
 /* Work
@@ -499,7 +493,7 @@ footer .fa {
   margin: 0 5px;
 }
 
-a {
+footer a {
   color: #999;
 }
 
@@ -508,10 +502,10 @@ a.social-icon {
 }
 
 a.social-icon:hover {
-  color: #45979E;
+  color: #00C0C7;
 }
 
-/* About Page
+/* Secondary Page Headers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-header {
   background-image: url(../img/bkg/gray.svg);
@@ -522,7 +516,7 @@ a.social-icon:hover {
 }
 
 .hero-header h1 {
-  color: #63D6E0;
+  color: #00C0C7;
 }
 
 /* Contact Page
