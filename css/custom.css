@@ -341,7 +341,7 @@ nav ul li ul li {
 #hero-index {
   background-image: url(../img/bkg/teal.svg);
   background-attachment: fixed;
-  background-size: 500px 500px;
+  background-size: 650px 650px;
   padding: 50px 27px;
 }
 
@@ -475,7 +475,7 @@ a:hover.item-link {
 footer {
   background-image: url(../img/bkg/gray.svg);
   background-attachment: fixed;
-  background-size: 500px 500px;
+  background-size: 650px 650px;
   padding: 100px 27px;
   background-color: #463f3f;
   padding: 60px 0;
@@ -510,13 +510,51 @@ a.social-icon:hover {
 .hero-header {
   background-image: url(../img/bkg/gray.svg);
   background-attachment: fixed;
-  background-size: 500px 500px;
+  background-size: 650px 650px;
   padding-top: 35px;
   padding-bottom: 0;
 }
 
 .hero-header h1 {
   color: #00C0C7;
+}
+
+/* Work Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-client {
+  margin-bottom: 5px;
+}
+
+.work-role {
+  margin-bottom: 25px;
+}
+
+.work-showcase .work-content .work-role:before {
+    content: "\2022";
+    margin-right: 4px;
+    color: #FDCD3B;
+    font-size: 1.8rem;
+}
+
+.work-showcase .work-content .work-role li {
+  display: inline;
+}
+
+.work-showcase .work-content .work-role li:after {
+  content: ",";
+}
+
+.work-showcase .work-content .work-role li:last-child:after {
+  content: "";
+}
+
+ul.work-role {
+  color: #b2c6cd;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 1;
+  text-transform: uppercase;
 }
 
 /* Contact Page
