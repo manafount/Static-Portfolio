@@ -521,19 +521,24 @@ a.social-icon:hover {
 
 /* Work Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-showcase {
+  background-color: #f7f7f7;
+}
+
+.work-showcase .row:after {
+  margin-bottom: 50px;
+}
+
+.work-showcase .row:last-child:after {
+  margin-bottom: 0;
+}
+
 .work-client {
   margin-bottom: 5px;
 }
 
 .work-role {
-  margin-bottom: 25px;
-}
-
-.work-showcase .work-content .work-role:before {
-    content: "\2022";
-    margin-right: 4px;
-    color: #FDCD3B;
-    font-size: 1.8rem;
+  margin-bottom: 20px;
 }
 
 .work-showcase .work-content .work-role li {
@@ -549,8 +554,8 @@ a.social-icon:hover {
 }
 
 ul.work-role {
-  color: #b2c6cd;
-  font-size: 1.1rem;
+  color: #111111;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 1px;
   opacity: 1;
