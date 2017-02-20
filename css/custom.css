@@ -6,11 +6,11 @@ body {
 /* utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-pull-left {
-  margin-right: 3rem;
+  padding-right: 3rem;
 }
 
 .u-pull-right {
-  margin-left: 3rem;
+  padding-left: 3rem;
 }
 
 /* links
@@ -520,7 +520,7 @@ a.social-icon:hover {
 #work {
   background-color: #f7f7f7;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 320px) {
@@ -531,17 +531,8 @@ a.social-icon:hover {
 }
 
 section.work-showcase {
-  margin: 0;
+  margin-bottom: 2em;
   padding: 0;
-}
-
-.work-showcase {
-  position: relative;
-  overflow: hidden;
-}
-
-.work-showcase .row:last-child:after {
-  margin-bottom: 0;
 }
 
 .work-client {
