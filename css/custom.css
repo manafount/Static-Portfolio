@@ -344,6 +344,8 @@ nav ul li ul li {
 }
 
 #frame {
+  max-width: 500px;
+  margin: auto;
   background-color: #ccc;
   border-radius: 5px;
   padding-top: 15px;
