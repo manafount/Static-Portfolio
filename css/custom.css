@@ -110,7 +110,6 @@ body, .article {
   font-family: 'Karla', sans-serif;
   font-size: 2.1em;
   line-height: 2;
-  /*max-width: 960px;*/
   color: #111111;
 }
 
@@ -229,7 +228,6 @@ nav ul li ul li a {
 @media only screen and (max-width: 800px) {
   .nav-mobile {
     display: block;
-    z-index: 1;
   }
 
   nav {
@@ -238,6 +236,9 @@ nav ul li ul li a {
   }
   nav ul {
     display: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
   }
   nav ul li {
     float: none;
