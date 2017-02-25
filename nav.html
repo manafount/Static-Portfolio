@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Amy Kotas | Front End Web Developer</title>
+  <meta name="description" content="I'm Amy. I build websites.">
+  <meta name="author" content="Amy Kotas">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/typed.js"></script>
+  <script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["I build websites."],
+      typeSpeed: 10
+    });
+  });
+  </script>
+
+  <!-- Google Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46853025-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+
+</head>
+
+<!-- Begin Body –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <body id="home">
+  <!--
+  Following Tania Ruscia's tutorial on creating your own responsive dropdown navigation bar. https://www.taniarascia.com/responsive-dropdown-navigation-bar/
+  -->
+  <header class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="index.html"><img src="img/signature.svg" alt="Amy Kotas" width="200" height="53"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <!-- Setting the links to #! will ensure that no action takes place on click. -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <section>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi atque, similique? Dolorem tenetur consequuntur enim tempora, non nobis voluptas dolorum nemo optio fugiat. Doloribus, hic ad atque amet sit iusto.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quam ab facere, harum nihil deleniti. Recusandae fuga delectus inventore quasi voluptatibus suscipit, ex consequuntur? Perferendis at corporis sed illum dolores.</p>
+    </div>
+  </section>
+  </body>
+<!-- End Body –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+</html>
