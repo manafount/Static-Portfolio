@@ -172,24 +172,9 @@ header {
   min-height: 90px;
 }
 
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-}
-
-.brand img {
-  padding-top: 20px;
-}
-
 nav {
   float: right;
   padding-top: 40px;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 nav ul {
@@ -226,6 +211,11 @@ nav ul li ul li {
   min-width: 190px;
 }
 
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
 .nav-dropdown {
   position: absolute;
   z-index: 1;
@@ -251,12 +241,10 @@ nav ul li ul li {
 
   nav {
     width: 100%;
-    padding: 70px 0 15px;
+    padding: 80px 0 15px;
   }
   nav ul {
     display: none;
-    background-color: #;
-    padding: 5px 0;
   }
   nav ul li {
     float: none;
@@ -320,6 +308,21 @@ nav ul li ul li {
   .nav-list {
     display: block !important;
   }
+}
+
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+}
+
+.brand img {
+  padding-top: 20px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* Hero
