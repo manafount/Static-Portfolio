@@ -110,6 +110,7 @@ body, .article {
   font-family: 'Karla', sans-serif;
   font-size: 2.1em;
   line-height: 2;
+  /*max-width: 960px;*/
   color: #111111;
 }
 
@@ -171,9 +172,24 @@ header {
   min-height: 90px;
 }
 
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+}
+
+.brand img {
+  padding-top: 20px;
+}
+
 nav {
   float: right;
   padding-top: 40px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -210,9 +226,12 @@ nav ul li ul li {
   min-width: 190px;
 }
 
-nav ul li ul li a {
-  padding: 15px;
-  line-height: 20px;
+.nav-dropdown {
+  position: absolute;
+  z-index: 1;
+  /* Guarantees that the dropdown will display on top of any content. */
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  display: none;
 }
 
 .nav-mobile {
@@ -232,13 +251,12 @@ nav ul li ul li a {
 
   nav {
     width: 100%;
-    padding: 80px 0 15px;
+    padding: 70px 0 15px;
   }
   nav ul {
     display: none;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
+    background-color: #;
+    padding: 5px 0;
   }
   nav ul li {
     float: none;
@@ -304,31 +322,16 @@ nav ul li ul li a {
   }
 }
 
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-}
-
-.brand img {
-  padding-top: 20px;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #hero-index {
-  background-image: url(../img/bkg/teal.svg);
+  background-image: url(../img/bkg/teal.png);
   background-attachment: fixed;
   background-size: 650px 650px;
   padding: 50px 27px;
 }
 
-#hero-index   {
+#hero-index h1 {
   color: #111111;
   font-size: 6.5rem;
 }
@@ -458,7 +461,7 @@ a:hover.item-link {
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
-  background-image: url(../img/bkg/gray.svg);
+  background-image: url(../img/bkg/gray.png);
   background-attachment: fixed;
   background-size: 650px 650px;
   padding: 100px 27px;
@@ -493,7 +496,7 @@ a.social-icon:hover {
 /* Secondary Page Headers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-header {
-  background-image: url(../img/bkg/gray.svg);
+  background-image: url(../img/bkg/gray.png);
   background-attachment: fixed;
   background-size: 650px 650px;
   padding-top: 35px;
@@ -580,4 +583,3 @@ ul.work-role {
   background-color: #f7f7f7;
   padding: 1em;
 }
-
