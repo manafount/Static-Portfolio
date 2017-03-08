@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #00C0C7;
+  color: #79C3BF;
 }
 
 a.button {
@@ -66,8 +66,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #111111;
-  background-color: #00C0C7;
-  border-color: #00C0C7;
+  background-color: #79C3BF;
+  border-color: #79C3BF;
   border-radius: 0;
   font-size: 0.8em;
   -webkit-transition: background-color 0.25s ease-out;
@@ -213,7 +213,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00C0C7;
+  color: #79C3BF;
   text-decoration: underline;
 }
 
@@ -396,7 +396,7 @@ nav ul li ul li {
     margin-bottom: 0;
     font-size: 1.8rem;
     line-height: 1.8;
-    color: #00C0C7;
+    color: #79C3BF;
 }
 
 #intro i.fa {
@@ -412,7 +412,7 @@ nav ul li ul li {
 .skill-icon  {
   text-align: center;
   margin: 10px auto;
-  color: #00C0C7;
+  color: #79C3BF;
 }
 
 /* Work
@@ -490,7 +490,7 @@ a.social-icon {
 }
 
 a.social-icon:hover {
-  color: #00C0C7;
+  color: #79C3BF;
 }
 
 /* Secondary Page Headers
@@ -504,7 +504,7 @@ a.social-icon:hover {
 }
 
 .hero-header h1 {
-  color: #00C0C7;
+  color: #79C3BF;
 }
 
 /* Work Page
