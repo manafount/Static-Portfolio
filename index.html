@@ -49,27 +49,31 @@
     <header class="navigation">
       <div class="nav-container">
         <div class="brand">
-          <a href="index.html"><img src="img/signature.svg" alt="Matt Kerchner" width="200" height="53"></a>
+          <a href="index.html"><object data="img/signature.svg" type="image/svg+xml" id="sigsvg" src="img/signature.svg" alt="Matt Kerchner" width="100%" height="auto"></object>
           <script>
-            function animatePath(pathname, animation) {
-              let path = document.querySelector(pathname);
-              let length = path.getTotalLength();
-              // Clear any previous transition
-              path.style.transition = path.style.WebkitTransition =
-                'none';
-              // Set up the starting positions
-              path.style.strokeDasharray = length + ' ' + length;
-              path.style.strokeDashoffset = length;
-              // Trigger a layout so styles are calculated & the browser
-              // picks up the starting position before animating
-              path.getBoundingClientRect();
-              // Define our transition
-              path.style.transition = path.style.WebkitTransition =
-                animation;
-              // Go!
-              path.style.strokeDashoffset = '0';
-            }
-            animatePath('#signature path', 'stroke-dashoffset 2s ease-in-out');
+            $(window).load(function () {
+              function animatePath(pathname, animation) {
+                let svg = document.getElementById("sigsvg");
+                let svgDoc = svg.contentDocument;
+                let path = svgDoc.querySelector(pathname);
+                let length = path.getTotalLength();
+                // Clear any previous transition
+                path.style.transition = path.style.WebkitTransition =
+                  'none';
+                // Set up the starting positions
+                path.style.strokeDasharray = length + ' ' + length;
+                path.style.strokeDashoffset = length;
+                // Trigger a layout so styles are calculated & the browser
+                // picks up the starting position before animating
+                path.getBoundingClientRect();
+                // Define our transition
+                path.style.transition = path.style.WebkitTransition =
+                  animation;
+                // Go!
+                path.style.strokeDashoffset = '0';
+              }
+              animatePath('#signature path', 'stroke-dashoffset 2s ease-in-out');
+            });
           </script>
         </div>
         <nav> <!-- Main Navigation -->
