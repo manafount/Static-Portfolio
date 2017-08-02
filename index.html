@@ -13,6 +13,10 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <!-- OneSignal
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="manifest" href="/manifest.json">
+
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,6 +37,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/typed.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
     <script>
     $(function(){
       $(".typed").typed({
@@ -40,7 +45,16 @@
         typeSpeed: 10
       });
     });
-    </script>
+
+    let OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "2e1310e6-01fc-48b4-9607-31e8c0775ec7",
+      autoRegister: false,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
   </head>
 
   <!-- Begin Body –––––––––––––––––––––––––––––––––––––––––––––––––– -->
